@@ -8,4 +8,5 @@ export const API_MOVIES_URL = {
   popular: `${BASE_API_URL}/movie/popular?api_key=${API_KEY}`,
   upcoming: `${BASE_API_URL}/movie/top_rated?api_key=${API_KEY}`,
   topRated: `${BASE_API_URL}/movie/upcoming?api_key=${API_KEY}`,
+  searchMovie: `${BASE_API_URL}/search/movie?api_key=${API_KEY}`,
 };
