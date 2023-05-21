@@ -3,6 +3,7 @@ import MovieList from "../../components/MovieList/MovieList";
 import useFetch from "../../hooks/useFetch";
 import { API_MOVIES_URL } from "../../utils/constants";
 import Loading from "../../components/Loading/Loading";
+import "./Home.css";
 
 // Functional Component (Stateless component)
 // Class-based component (Statefull component)
@@ -32,6 +33,7 @@ const Home = () => {
         <Loading />
       ) : (
         <main>
+          <h1 className="homepage-heading">CGV Cinema</h1>
           <MovieList
             listTitle="Popular Movie"
             movieData={popularMovies.results}
