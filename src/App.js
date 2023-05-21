@@ -22,3 +22,9 @@ function App() {
 }
 
 export default App;
+
+// Pipeline 
+// Step 1: test case
+// Step 2: coding convention eslint camelCase , ;
+// Step 3: ...
+// Step build
