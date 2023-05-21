@@ -22,10 +22,3 @@ function App() {
 }
 
 export default App;
-
-/**
- *
- *  / => Trang chủ
- *  /about-us => Trang AboutUs
- *  ReactJS is a library  !== framework (vuejs, angular)
- */
